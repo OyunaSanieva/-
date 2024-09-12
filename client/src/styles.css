@@ -1,0 +1,22 @@
+
+.char-list {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 16px; 
+    padding: 16px; 
+  }
+  
+  .char-list > * {
+    flex: 1 1 calc(33.333% - 16px); 
+    box-sizing: border-box; 
+  }
+  .pagination-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .pagination-controls span {
+    margin: 0 1rem;
+  }
+  
